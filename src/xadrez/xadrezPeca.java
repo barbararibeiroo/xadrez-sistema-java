@@ -6,7 +6,7 @@ import tabuleiro.Tabuleiro;
 public class xadrezPeca extends Peca {
 		private Cor cor;  
 		
-	public xadrezPeca(Tabuleiro tabuleiro) {
+	public xadrezPeca(Tabuleiro tabuleiro, Cor cor) {
 		super(tabuleiro);
 		this.cor = cor;
 	}
